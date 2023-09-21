@@ -1,0 +1,19 @@
+.submit {
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 8rem;
+  letter-spacing: 0.2ch;
+  transition: 0.4s;
+}
+
+.active {
+  pointer-events: all;
+  background-color: var(--color-green);
+}
+
+.disable {
+  pointer-events: none;
+  background-color: #999;
+}

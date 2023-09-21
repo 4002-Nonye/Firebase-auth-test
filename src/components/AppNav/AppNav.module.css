@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: auto;
+  color: var(--color-white);
+}
+
+.linkContainer {
+  display: inline-flex;
+  align-items: center;
+  gap: 3rem;
+  color: inherit;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login {
+  color: var(--color-white);
+  transition: all 500ms;
+}
+.login:hover {
+  color: var(--color-green);
+}

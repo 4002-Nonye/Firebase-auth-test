@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  cursor: grab;
+  touch-action: none;
+}
+.tag {
+  position: absolute;
+  background: var(--color-input);
+
+  display: inline-flex;
+  gap: 0.6rem;
+  justify-content: center;
+  width: 7rem;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 2rem;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.likes {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+.heart {
+  color: red;
+  font-size: 3rem;
+}
